@@ -9,7 +9,7 @@ spring:
       enabled: true
   data:
     mongodb:
-      uri: mongodb://localhost:30002/user-server-mongodb
+      uri: mongodb://localhost:27017/user-server-mongodb
   application:
     name: user-server
   profiles:
