@@ -356,3 +356,5 @@ C
 git-upload-pack.txt,9/7/974b88c6a1c412bf17d4b6488c4ac455a5e732de
 L
 user-server-resilience4j.yml,8/a/8a18eebbfb79b9ef297e94797ec7a9db4970242c
+W
+'application-resilience4j-userserver.yml,7/5/75a462e8c038d0eed41196a6c53ba80279635774

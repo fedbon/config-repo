@@ -10,8 +10,6 @@ spring:
       uri: mongodb://localhost:30002/user-server-mongodb
   application:
     name: user-server
-#  config:
-#    import: optional:configserver:http://config-server:8888
   profiles:
     active:
       - resilience4j

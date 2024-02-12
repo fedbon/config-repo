@@ -1,24 +1,22 @@
 server:
-  port: 8765
+  port: 9877
 
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:30003/book-service-mongodb
+      uri: mongodb://localhost:30005/comment-service-mongodb
   cloud:
     discovery:
       enabled: true
   application:
-    name: book-service
-#  config:
-#    import: optional:configserver:http://config-server:8888
+    name: comment-service
   profiles:
     active: resilience4j
 
 mongock:
   runner-type: "InitializingBean"
   change-logs-scan-package:
-    - ru.fedbon.bookservice.mongock.changelog
+    - ru.fedbon.commentservice.mongock.changelog
   mongo-db:
     write-concern:
       journal: false
