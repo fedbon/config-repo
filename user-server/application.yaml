@@ -13,8 +13,10 @@ spring:
 #  config:
 #    import: optional:configserver:http://config-server:8888
   profiles:
-    active: resilience4j
-
+    active:
+      - resilience4j
+      - default
+      -
 mongock:
   change-logs-scan-package: false
   mongo-db:
