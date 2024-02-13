@@ -4,7 +4,7 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://author-service-mongodb:30004/author-service-mongodb
+      uri: mongodb://localhost:30004/author-service-mongodb
   cloud:
     discovery:
       enabled: true
