@@ -110,3 +110,5 @@ Q.idea/sonarlint/securityhotspotstore/3/0/30205a209c6ce77c4cfc19a09e6f57c588b7fb
 Q.idea/sonarlint/securityhotspotstore/c/8/c873d33cf2d5182e0394ff023c0ecfbd413ae354,a/2/a2363d328ec642849a1cbf9ce2d4e1f5f6a80b35
 Å
 Q.idea/sonarlint/securityhotspotstore/c/2/c20beccb5b9a07d633fe033a23cbda408502d56a,5/3/5370e456d7f2381ffe58864a4548c0c12b4e49c4
+A
+config-server.yml,6/3/6323a37a99e4bcf862460557ece533dc94d445c5

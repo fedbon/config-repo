@@ -7,7 +7,7 @@ spring:
       enabled: true
   data:
     mongodb:
-      uri: ${SPRING_DATA_MONGODB_URI}
+      uri: mongodb://user-server-mongodb:30002/user-server-mongodb
   application:
     name: user-server
   profiles:
@@ -26,7 +26,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: ${EUREKA_URI}
+      defaultZone: http://eureka-discovery-server:8761/eureka
 
 jwt:
   password:
