@@ -11,7 +11,7 @@ spring:
   application:
     name: author-service
   kafka:
-    bootstrap-servers: ${SPRING_KAFKA_BOOTSTRAP-SERVERS:localhost:9092}
+    bootstrap-servers: ${SPRING_KAFKA_BOOTSTRAPSERVERS:localhost:9092}
     consumer:
       group-id: authorGroup
       auto-offset-reset: earliest
