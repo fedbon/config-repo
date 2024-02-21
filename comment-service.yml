@@ -4,7 +4,7 @@ server:
 spring:
   data:
     mongodb:
-      uri: ${SPRING_DATA_MONGODB_URI:mongodb://localhost:30005/comment-mongodb}
+      uri: ${SPRING_DATA_MONGODB_URI:mongodb://localhost:30005/comment-service-mongodb}
   cloud:
     discovery:
       enabled: true
