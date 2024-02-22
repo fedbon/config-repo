@@ -112,5 +112,3 @@ Q.idea/sonarlint/securityhotspotstore/c/8/c873d33cf2d5182e0394ff023c0ecfbd413ae3
 Q.idea/sonarlint/securityhotspotstore/c/2/c20beccb5b9a07d633fe033a23cbda408502d56a,5/3/5370e456d7f2381ffe58864a4548c0c12b4e49c4
 A
 config-server.yml,6/3/6323a37a99e4bcf862460557ece533dc94d445c5
-N
-gateway-server/application.yml,9/1/91256106983e1bf456355027f7a2172caef5fbd0
