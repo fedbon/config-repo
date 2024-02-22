@@ -6,6 +6,10 @@ management:
     web:
       exposure:
         include: health,info,prometheus
+  prometheus:
+    metrics:
+      export:
+        enabled: true
 
 spring:
   cloud:
